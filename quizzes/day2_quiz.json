@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "question": "Why do AI agents need 'Memory'?",
+    "options": [
+      "To store API keys.",
+      "To remember previous turns in the conversation and maintain context.",
+      "To search the internet.",
+      "To run faster."
+    ],
+    "answer": "To remember previous turns in the conversation and maintain context."
+  },
+  {
+    "id": 2,
+    "question": "Which Python object did we use to store memory in Streamlit?",
+    "options": [
+      "st.memory_bank",
+      "st.session_state",
+      "st.cache_data",
+      "st.local_storage"
+    ],
+    "answer": "st.session_state"
+  },
+  {
+    "id": 3,
+    "question": "What happens if an agent encounters a query it can't answer with its internal knowledge?",
+    "options": [
+      "It shuts down.",
+      "It hallucinates an answer.",
+      "It should ideally use a 'Tool' (like Search or Calculator) to find the answer.",
+      "It asks the user for the API key."
+    ],
+    "answer": "It should ideally use a 'Tool' (like Search or Calculator) to find the answer."
+  },
+  {
+    "id": 4,
+    "question": "True or False: Short-term memory is usually lost when the session ends (e.g., refreshing the page).",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "id": 5,
+    "question": "Which of these is a security risk when using API keys?",
+    "options": [
+      "Using a .env file.",
+      "Hardcoding the key directly in the script (e.g., API_KEY = 'xyz').",
+      "Using Streamlit secrets.",
+      "Regenerating keys periodically."
+    ],
+    "answer": "Hardcoding the key directly in the script (e.g., API_KEY = 'xyz')."
+  }
+]

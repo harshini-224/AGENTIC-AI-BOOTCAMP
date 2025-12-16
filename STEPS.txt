@@ -1,0 +1,25 @@
+Github:
+1. Fork the REPO
+(Sync the repo when needed)
+
+2. Clone the repo into local computer
+    git clone "YOUR_REPO_NAME"
+
+3. pip install -r requirements.txt
+(For Mac -> pip3 install -r requirements.txt)
+
+4. Go to Project/day[1/2/3/4]_xyz_xyz
+    cd .\projects\day1_prompt_to_planner\
+    (or)
+    cd .\projects\day2_memory_tools\
+    (or)
+    cd .\projects\day3_crewai_multiagents\
+    (or)
+    cd .\projects\day3_crewai_multiagents\
+
+5. Create a .env file in the folder and add the gemini api key(check env.example for the reference)
+
+6. Run the code
+    streamlit run app.py
+    [If there is a streamlit error then run *pip install streamlit* once again]
+    (If streamlit run app.py does not work then run *python -m streamlit run app.py*)
